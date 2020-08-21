@@ -38,6 +38,7 @@ a{
 	font-weight: 600;
 	line-height: 20px;
 	text-transform: uppercase;
+	padding: 4px 0;
 	border-bottom: 1px solid transparent;
 	transition: 0.4s;
 }
@@ -58,12 +59,14 @@ a{
 	color: #fafafa;
 	font-size: 24px;
 	line-height: 28px;
+	opacity: 0.7;
 	transition: 0.4s;
 }
 
 .header__contacts__item:hover{
 	color: #fafafa;
 	text-decoration: none;
+	opacity: 1;
 }
 
 /* END Header */
