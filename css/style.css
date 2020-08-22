@@ -10,6 +10,37 @@ a{
 	display: inline-block;
 }
 
+/* Title */
+
+.title{
+	color: #f0f0f0;
+	font-family: "Montserrat";
+	font-size: 144px;
+	font-weight: 700;
+	line-height: 176px;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.title::after{
+	position: absolute;
+	content: "Explore unique high-quality products made by experts for everyone ";
+	color: #878787;
+	font-family: "Montserrat";
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+	text-align: center;
+	text-transform: none;
+	width: 120%;
+	top: 42%;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+/* END Title */
+
 /* Header */
 
 .header{
@@ -130,33 +161,7 @@ a{
 
 .about{
 	padding-top: 145px;
-}
-
-.about__title{
-	color: #f0f0f0;
-	font-family: "Montserrat";
-	font-size: 144px;
-	font-weight: 700;
-	line-height: 176px;
-	text-align: center;
-	text-transform: uppercase;
-	position: relative;
-}
-
-.about__title::after{
-	position: absolute;
-	content: "Explore unique high-quality products made by experts for everyone ";
-	color: #878787;
-	font-family: "Montserrat";
-	font-size: 20px;
-	font-weight: 600;
-	line-height: 24px;
-	text-align: center;
-	text-transform: none;
-	width: 120%;
-	top: 42%;
-	left: 50%;
-	transform: translate(-50%);
+	background-color: #fafafa;
 }
 
 .about__item{
@@ -193,3 +198,93 @@ a{
 }
 
 /* END About */
+
+/* Inertix */
+
+.inertix{
+	padding-top: 145px;
+	background-color: #fafafa;
+}
+
+.inertix__item{
+	margin-top: 100px;
+}
+
+.inertix__side{
+	display: flex;
+	flex-direction: column;
+}
+
+.inertix__side__img1{
+	background-image: url(../img/inertix-img.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 17vw;
+	margin-bottom: 15px;
+}
+
+.inertix__side__img2{
+	background-image: url(../img/crushball-img.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 19vw;
+	margin-bottom: 15px;
+}
+
+.inertix__side__img1:last-child,
+.inertix__side__img2:last-child{
+	margin-bottom: 0;
+}
+
+.inertix__inner{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.inertix__video{
+	width: 100%;
+	outline: none;
+}
+
+.inertix__text{
+	color: #868686;
+	font-family: "Montserrat";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 30px;
+	text-align: center;
+	padding: 0 7%;
+}
+
+.inertix__btn__inner{
+	text-align: center;
+}
+
+.inertix__btn{
+	color: #fafafa;
+	font-family: "Montserrat";
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 20px 40px;
+	background-color: #1d1d1d;
+	border: 2px solid #fafafa;
+	transition: 0.4s;
+}
+
+.inertix__btn:hover{
+	color: #1d1d1d;
+	background-color: #fafafa;
+	border: 2px solid #1d1d1d;
+	text-decoration: none;
+}
+
+/* END Inertix */
