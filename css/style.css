@@ -221,7 +221,7 @@ a{
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 17vw;
+	height: 15vw;
 	margin-bottom: 15px;
 }
 
@@ -231,7 +231,7 @@ a{
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 19vw;
+	height: 17vw;
 	margin-bottom: 15px;
 }
 
@@ -288,3 +288,93 @@ a{
 }
 
 /* END Inertix */
+
+/* Crushball */
+
+.crushball{
+	padding-top: 145px;
+	background-color: #fafafa;
+}
+
+.crushball__item{
+	margin-top: 100px;
+}
+
+.crushball__side{
+	display: flex;
+	flex-direction: column;
+}
+
+.crushball__side__img1{
+	background-image: url(../img/inertix-img.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 15vw;
+	margin-bottom: 15px;
+}
+
+.crushball__side__img2{
+	background-image: url(../img/crushball-img.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 17vw;
+	margin-bottom: 15px;
+}
+
+.crushball__side__img1:last-child,
+.crushball__side__img2:last-child{
+	margin-bottom: 0;
+}
+
+.crushball__inner{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.crushball__video{
+	width: 100%;
+	outline: none;
+}
+
+.crushball__text{
+	color: #868686;
+	font-family: "Montserrat";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 30px;
+	text-align: center;
+	padding: 0 7%;
+}
+
+.crushball__btn__inner{
+	text-align: center;
+}
+
+.crushball__btn{
+	color: #fafafa;
+	font-family: "Montserrat";
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 20px 40px;
+	background-color: #1d1d1d;
+	border: 2px solid #fafafa;
+	transition: 0.4s;
+}
+
+.crushball__btn:hover{
+	color: #1d1d1d;
+	background-color: #fafafa;
+	border: 2px solid #1d1d1d;
+	text-decoration: none;
+}
+
+/* END Crushball */
