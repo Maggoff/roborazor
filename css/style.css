@@ -134,6 +134,7 @@ a{
 }
 
 .main__btn{
+	display: none;
 	color: #fafafa;
 	font-family: "Montserrat";
 	font-size: 16px;
@@ -423,3 +424,80 @@ a{
 }
 
 /* END Shop */
+
+/* Footer */
+
+.footer{
+	background-color: #1d1d1d;
+}
+
+.footer__inner{
+	height: 15vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__menu{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer__menu__item{
+	color: #fafafa;
+	font-family: "Montserrat";
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+	text-transform: uppercase;
+	padding: 4px 0;
+	border-bottom: 1px solid transparent;
+	transition: 0.4s;
+}
+
+.footer__menu__item:hover{
+	color: #fafafa;
+	text-decoration: none;
+	border-bottom: 1px solid #fafafa;
+}
+
+.footer__contacts{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footer__contacts__item{
+	margin-left: 20px;
+	color: #fafafa;
+	font-size: 24px;
+	line-height: 28px;
+	opacity: 0.9;
+	transition: 0.4s;
+}
+
+.footer__contacts__item:hover{
+	color: #fafafa;
+	text-decoration: none;
+	opacity: 1;
+}
+
+.footer__studios{
+	background-color: #fafafa;
+	padding: 15px 0;
+}
+
+.footer__roborazor,
+.footer__crayfish{
+	color: #878787;
+	font-family: "Montserrat";
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 15px;
+}
+
+.footer__crayfish{
+	text-align: end;
+}
+
+/* END Footer */
