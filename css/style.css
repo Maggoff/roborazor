@@ -1,7 +1,6 @@
 *,
 ::after,
-::before,
-p{
+::before{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -59,7 +58,7 @@ a{
 	color: #fafafa;
 	font-size: 24px;
 	line-height: 28px;
-	opacity: 0.7;
+	opacity: 0.9;
 	transition: 0.4s;
 }
 
@@ -126,3 +125,71 @@ a{
 }
 
 /* END Main */
+
+/* About */
+
+.about{
+	padding-top: 145px;
+}
+
+.about__title{
+	color: #f0f0f0;
+	font-family: "Montserrat";
+	font-size: 144px;
+	font-weight: 700;
+	line-height: 176px;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.about__title::after{
+	position: absolute;
+	content: "Explore unique high-quality products made by experts for everyone ";
+	color: #878787;
+	font-family: "Montserrat";
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+	text-align: center;
+	text-transform: none;
+	width: 120%;
+	top: 42%;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.about__item{
+	margin-top: 100px;
+}
+
+.about__item__inner{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.about__item__title{
+	margin-bottom: 30px;
+	color: #222222;
+	font-family: "Montserrat";
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 33px;
+}
+
+.about__item__text{
+	color: #868686;
+	font-family: "Montserrat";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 30px;
+	padding-left: 36px;
+	border-left: 8px solid #5b4f39;
+}
+
+.about__item__img{
+	width: 100%;
+}
+
+/* END About */
