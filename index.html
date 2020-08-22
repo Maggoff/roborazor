@@ -19,28 +19,35 @@
 	<header class="header">
 		<div class="container">
 			<div class="row header__inner">
-				<div class="col-lg-2">
+				<div class="col-10 order-1 col-lg-2">
 					<div class="header__logo">
 						<img src="img/logo.svg" alt="Logo">
+          </div>
+				</div>
+        <div class="header__links order-3 col-lg-10 order-lg-2" id="links">
+					<nav class="header__menu col-lg-10" id="menu">
+						<a href="#about" class="header__menu__item">About</a>
+						<a href="#inertix" class="header__menu__item">Inertix project</a>
+						<a href="#crushball" class="header__menu__item">Crushball project</a>
+						<a href="#shop" class="header__menu__item">Shop</a>
+					</nav>
+					<div class="header__contacts col-lg-2">
+						<a href="#" class="header__contacts__item">
+							<i class="fab fa-pinterest-p"></i>
+						</a>
+						<a href="#" class="header__contacts__item">
+							<i class="fab fa-kickstarter-k"></i>
+						</a>
+						<a href="#" class="header__contacts__item">
+							<i class="fab fa-instagram"></i>
+						</a>
 					</div>
-				</div>
-				<nav class="header__menu col-lg-8" id="menu">
-					<a href="#about" class="header__menu__item">About</a>
-					<a href="#inertix" class="header__menu__item">Inertix project</a>
-					<a href="#crushball" class="header__menu__item">Crushball project</a>
-					<a href="#shop" class="header__menu__item">Shop</a>
-				</nav>
-				<div class="header__contacts col-lg-2">
-					<a href="#" class="header__contacts__item">
-						<i class="fab fa-pinterest-p"></i>
-					</a>
-					<a href="#" class="header__contacts__item">
-						<i class="fab fa-kickstarter-k"></i>
-					</a>
-					<a href="#" class="header__contacts__item">
-						<i class="fab fa-instagram"></i>
-					</a>
-				</div>
+        </div>
+        <div class="col-2 order-2 order-lg-3">
+          <a class="header__burger" href="javascript:void(0);" onclick="myFunction2()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
 			</div>
 		</div>
 	</header>
@@ -52,22 +59,24 @@
 	<section class="main" style="background-image: url(img/main-bg.jpg);">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 m-auto">
+				<div class="col-12 col-md-6 col-lg-6 m-auto">
 					<div class="main__title">
 						Hand made product
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-10 m-auto">
+				<div class="col-12 col-lg-10 m-auto">
 					<div class="main__text">
 						Explore unique high-quality products made by experts for everyone
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-3 col-xl-2 m-auto" id="main-btn">
-					<a href="#about" class="main__btn">See more</a>
+				<div class="col-12">
+					<div class="main__btn__inner" id="main-btn">
+						<a href="#about" class="main__btn">See more</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -80,7 +89,7 @@
 	<section class="about" id="about">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
+				<div class="col-12 col-lg-12">
 					<div class="title">
 						About
 						<div class="title__text">
@@ -90,7 +99,7 @@
 				</div>
 			</div>
 			<div class="row about__item">
-				<div class="col-lg-4 about__item__inner">
+				<div class="col-12 col-lg-4 about__item__inner">
 					<div class="about__item__title">
 						Explore unique high-quality products made by
 					</div>
@@ -102,15 +111,15 @@
 						high-quality products made by experts for everyone
 					</div>
 				</div>
-				<div class="col-lg-7 ml-auto about__item__inner">
+				<div class="col-12 order-first col-lg-7 order-lg-last ml-auto about__item__inner">
 					<img src="img/about-img.jpg" alt="About" class="about__item__img">
 				</div>
 			</div>
 			<div class="row about__item">
-				<div class="col-lg-7 about__item__inner">
+				<div class="col-12 col-lg-7 about__item__inner">
 					<img src="img/about-img.jpg" alt="About" class="about__item__img">
 				</div>
-				<div class="col-lg-4 ml-auto about__item__inner">
+				<div class="col-12 col-lg-4 ml-auto about__item__inner">
 					<div class="about__item__text">
 						Explore unique high-quality products made by experts for everyone. Explore unique high-quality
 						products made
@@ -130,7 +139,7 @@
 	<section class="inertix" id="inertix">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
+				<div class="col-12 col-lg-12">
 					<div class="title">
 						Inertix
 						<div class="title__text">
@@ -140,19 +149,18 @@
 				</div>
 			</div>
 			<div class="row inertix__item">
-				<div class="col-lg-3">
+				<div class="col-6 col-lg-3 order-lg-1">
 					<div class="inertix__side">
 						<div class="inertix__side__img1" style="background-image: url(img/inertix-img.jpg)"></div>
 						<div class="inertix__side__img2" style="background-image: url(img/inertix-img.jpg)"></div>
 					</div>
 				</div>
-				<div class="col-lg-6">
+				<div class="col-12 order-last col-lg-6 order-lg-2">
 					<div class="inertix__inner">
 						<div class="inertix__video__inner">
 							<iframe class="inertix__video" src="https://www.youtube.com/embed/xKQdspTBZs4"
 								srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/xKQdspTBZs4?autoplay=1><img src=https://img.youtube.com/vi/xKQdspTBZs4/hqdefault.jpg alt='Inertix Review update 2'><span>▶</span></a>"
-								frameborder="0"
-								allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+								frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 								allowfullscreen>
 							</iframe>
 						</div>
@@ -167,7 +175,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-6 col-lg-3 order-lg-3">
 					<div class="inertix__side">
 						<div class="inertix__side__img2" style="background-image: url(img/inertix-img.jpg)"></div>
 						<div class="inertix__side__img1" style="background-image: url(img/inertix-img.jpg)"></div>
@@ -184,7 +192,7 @@
 	<section class="crushball" id="crushball">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
+				<div class="col-12 col-lg-12">
 					<div class="title">
 						Crushball
 						<div class="title__text">
@@ -194,19 +202,18 @@
 				</div>
 			</div>
 			<div class="row crushball__item">
-				<div class="col-lg-3">
+				<div class="col-6 col-lg-3 order-lg-1">
 					<div class="crushball__side">
 						<div class="crushball__side__img1" style="background-image: url(img/crushball-img.jpg)"></div>
 						<div class="crushball__side__img2" style="background-image: url(img/crushball-img.jpg)"></div>
 					</div>
 				</div>
-				<div class="col-lg-6">
+				<div class="col-12 order-last col-lg-6 order-lg-2">
 					<div class="crushball__inner">
 						<div class="crushball__video__inner">
 							<iframe class="crushball__video" src="https://www.youtube.com/embed/xKQdspTBZs4"
 								srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/xKQdspTBZs4?autoplay=1><img src=https://img.youtube.com/vi/xKQdspTBZs4/hqdefault.jpg alt='Inertix Review update 2'><span>▶</span></a>"
-								frameborder="0"
-								allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+								frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 								allowfullscreen>
 							</iframe>
 						</div>
@@ -221,7 +228,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-6 col-lg-3 order-lg-3">
 					<div class="crushball__side">
 						<div class="crushball__side__img2" style="background-image: url(img/crushball-img.jpg)"></div>
 						<div class="crushball__side__img1" style="background-image: url(img/crushball-img.jpg)"></div>
@@ -238,7 +245,7 @@
 	<section class="shop" id="shop">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
+				<div class="col-12 col-lg-12">
 					<div class="title">
 						Shop
 						<div class="title__text">
@@ -248,29 +255,29 @@
 				</div>
 			</div>
 			<div class="row shop__inner">
-				<div class="col-lg-3">
+				<div class="col-6 col-lg-3">
 					<a href="#" class="shop__item">
 						<img src="img/shop-img.jpg" alt="Shop" class="shop__item__img">
 					</a>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-6 col-lg-3">
 					<a href="#" class="shop__item">
 						<img src="img/shop-img.jpg" alt="Shop" class="shop__item__img">
 					</a>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-6 col-lg-3">
 					<a href="#" class="shop__item">
 						<img src="img/shop-img.jpg" alt="Shop" class="shop__item__img">
 					</a>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-6 col-lg-3">
 					<a href="#" class="shop__item">
 						<img src="img/shop-img.jpg" alt="Shop" class="shop__item__img">
 					</a>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-3 col-xl-2 m-auto">
+				<div class="col-12">
 					<div class="shop__btn__inner">
 						<a href="#" class="shop__btn">Shop now</a>
 					</div>
@@ -286,27 +293,31 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="row footer__inner">
-				<div class="col-lg-2">
+				<div class="col-12 col-lg-2">
 					<div class="footer__logo">
 						<img src="img/logo.svg" alt="Logo">
 					</div>
 				</div>
-				<nav class="footer__menu col-lg-8" id="menu-footer">
-					<a href="#about" class="footer__menu__item">About</a>
-					<a href="#inertix" class="footer__menu__item">Inertix project</a>
-					<a href="#crushball" class="footer__menu__item">Crushball project</a>
-					<a href="#shop" class="footer__menu__item">Shop</a>
-				</nav>
-				<div class="footer__contacts col-lg-2">
-					<a href="#" class="footer__contacts__item">
-						<i class="fab fa-pinterest-p"></i>
-					</a>
-					<a href="#" class="footer__contacts__item">
-						<i class="fab fa-kickstarter-k"></i>
-					</a>
-					<a href="#" class="footer__contacts__item">
-						<i class="fab fa-instagram"></i>
-					</a>
+				<div class="col-12 col-lg-8">
+					<nav class="footer__menu" id="menu-footer">
+						<a href="#about" class="footer__menu__item">About</a>
+						<a href="#inertix" class="footer__menu__item">Inertix project</a>
+						<a href="#crushball" class="footer__menu__item">Crushball project</a>
+						<a href="#shop" class="footer__menu__item">Shop</a>
+					</nav>
+				</div>
+				<div class="col-12 col-lg-2">
+					<div class="footer__contacts">
+						<a href="#" class="footer__contacts__item">
+							<i class="fab fa-pinterest-p"></i>
+						</a>
+						<a href="#" class="footer__contacts__item">
+							<i class="fab fa-kickstarter-k"></i>
+						</a>
+						<a href="#" class="footer__contacts__item">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -315,12 +326,12 @@
 	<section class="footer__studios">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3">
+				<div class="col-12 col-lg-3">
 					<div class="footer__roborazor">
 						© 2020 RoboRazor Studio
 					</div>
 				</div>
-				<div class="col-lg-3 ml-auto">
+				<div class="col-12 col-lg-3 ml-auto">
 					<div class="footer__crayfish">
 						powered by
 						<a href="https://crayfish.studio/">
@@ -336,7 +347,7 @@
 
 	<script src="js/bootstrap.bundle.min.js"></script>
 	<script src="https://kit.fontawesome.com/a759c39f58.js" crossorigin="anonymous"></script>
-	<script src="js/main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
