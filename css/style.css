@@ -20,6 +20,7 @@ a{
 	line-height: 176px;
 	text-align: center;
 	text-transform: uppercase;
+	pointer-events: none;
 	position: relative;
 }
 
@@ -32,6 +33,7 @@ a{
 	line-height: 24px;
 	text-align: center;
 	text-transform: none;
+	pointer-events: all;
 	width: 100%;
 	top: 42%;
 	left: 50%;
@@ -246,6 +248,7 @@ a{
 
 .inertix__video{
 	width: 100%;
+	height: 342px;
 	outline: none;
 }
 
@@ -334,6 +337,7 @@ a{
 
 .crushball__video{
 	width: 100%;
+	height: 342px;
 	outline: none;
 }
 
