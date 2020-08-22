@@ -10,6 +10,14 @@ a{
 	display: inline-block;
 }
 
+body{
+  overflow-x: hidden;
+}
+
+.body__overfloy{
+  overflow: hidden;
+}
+
 /* Title */
 
 .title{
@@ -566,7 +574,7 @@ a{
   }
 
   .header__links{
-    position: absolute;
+    position: fixed;
     right: -100%;
     top: 15vh;
     height: 85vh;

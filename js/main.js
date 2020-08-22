@@ -9,16 +9,6 @@ $(document).ready(function(){
 
 function myFunction() {
   var x = document.getElementById("links");
-  if (x.style.display === "flex") {
-    x.style.display = "none";
-    x.classList.remove("show");
-  } else {
-    x.style.display = "flex";
-    x.classList.add("show");
-  }
-}
-
-function myFunction2() {
-  var x = document.getElementById("links");
   x.classList.toggle("show");
+  document.body.classList.toggle("body__overfloy");
 }
