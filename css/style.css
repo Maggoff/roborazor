@@ -23,9 +23,8 @@ a{
 	position: relative;
 }
 
-.title::after{
+.title__text{
 	position: absolute;
-	content: "Explore unique high-quality products made by experts for everyone ";
 	color: #878787;
 	font-family: "Montserrat";
 	font-size: 20px;
@@ -105,7 +104,6 @@ a{
 
 .main{
 	height: 100vh;
-	background-image: url(../img/main-bg.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -141,7 +139,7 @@ a{
 	line-height: 20px;
 	text-align: center;
 	text-transform: uppercase;
-	padding: 22px 0;
+	padding: 20px 40px;
 	background-color: #1d1d1d;
 	border: 2px solid #fafafa;
 	width: 100%;
@@ -217,24 +215,21 @@ a{
 	flex-direction: column;
 }
 
-.inertix__side__img1{
-	background-image: url(../img/inertix-img.jpg);
+.inertix__side__img1,
+.inertix__side__img2{
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 260px;
 	margin-bottom: 15px;
 }
 
+.inertix__side__img1{
+	height: 260px;
+}
+
 .inertix__side__img2{
-	background-image: url(../img/crushball-img.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
 	height: 290px;
-	margin-bottom: 15px;
 }
 
 .inertix__side__img1:last-child,
@@ -308,24 +303,21 @@ a{
 	flex-direction: column;
 }
 
-.crushball__side__img1{
-	background-image: url(../img/inertix-img.jpg);
+.crushball__side__img1,
+.crushball__side__img2{
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 260px;
 	margin-bottom: 15px;
 }
 
+.crushball__side__img1{
+	height: 260px;
+}
+
 .crushball__side__img2{
-	background-image: url(../img/crushball-img.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
 	height: 290px;
-	margin-bottom: 15px;
 }
 
 .crushball__side__img1:last-child,
@@ -411,7 +403,7 @@ a{
 	line-height: 20px;
 	text-align: center;
 	text-transform: uppercase;
-	padding: 20px 0;
+	padding: 20px 40px;
 	width: 100%;
 	background-color: #1d1d1d;
 	border: 2px solid #fafafa;
