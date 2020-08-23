@@ -568,6 +568,10 @@ body{
     line-height: 23px;
   }
 
+  .img__container{
+    margin-bottom: 30px;
+  }
+
   .header{
     background-color: rgba(0, 0, 0, 0.8);
   }
@@ -682,16 +686,6 @@ body{
     margin-top: 50px;
   }
   
-  .inertix__side__img1,
-  .inertix__side__img2{
-    margin-bottom: 30px;
-  }
-  
-  .inertix__side__img1:last-child,
-  .inertix__side__img2:last-child{
-    margin-bottom: 30px;
-  }
-  
   .inertix__text{
     font-size: 15px;
     line-height: 28px;
@@ -710,16 +704,6 @@ body{
   
   .crushball__item{
     margin-top: 50px;
-  }
-  
-  .crushball__side__img1,
-  .crushball__side__img2{
-    margin-bottom: 30px;
-  }
-  
-  .crushball__side__img1:last-child,
-  .crushball__side__img2:last-child{
-    margin-bottom: 30px;
   }
   
   .crushball__text{
