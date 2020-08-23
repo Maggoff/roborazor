@@ -50,6 +50,16 @@ body{
 
 /* END Title */
 
+.img__container{
+  background-color: #1d1d1d;
+  transition: 0.4s;
+  margin-bottom: 15px;
+}
+
+.img__container:hover{
+  padding: 15px;
+}
+
 /* Header */
 
 .header{
@@ -242,7 +252,6 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
-	margin-bottom: 15px;
 }
 
 .inertix__side__img1{
@@ -251,11 +260,6 @@ body{
 
 .inertix__side__img2{
 	height: 290px;
-}
-
-.inertix__side__img1:last-child,
-.inertix__side__img2:last-child{
-	margin-bottom: 0;
 }
 
 .inertix__inner{
@@ -290,7 +294,8 @@ body{
 }
 
 .inertix__btn__inner{
-	text-align: center;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .inertix__btn{
@@ -339,7 +344,6 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
-	margin-bottom: 15px;
 }
 
 .crushball__side__img1{
@@ -348,11 +352,6 @@ body{
 
 .crushball__side__img2{
 	height: 290px;
-}
-
-.crushball__side__img1:last-child,
-.crushball__side__img2:last-child{
-	margin-bottom: 0;
 }
 
 .crushball__inner{
@@ -387,7 +386,8 @@ body{
 }
 
 .crushball__btn__inner{
-	text-align: center;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .crushball__btn{

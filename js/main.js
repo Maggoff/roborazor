@@ -4,7 +4,8 @@ $(document).ready(function () {
     event.preventDefault();
     let id = $(this).attr('href'),
       top = $(id).offset().top;
-    if (btn.style.display == "none") {
+      
+    if (btn.style.display === "none") {
       $('body,html').animate({ scrollTop: top }, 600);
     } else {
       setTimeout(scroll, 800);
