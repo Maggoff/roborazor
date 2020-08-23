@@ -52,12 +52,15 @@ body{
 
 .img__container{
   background-color: #1d1d1d;
-  transition: 0.4s;
   margin-bottom: 15px;
 }
 
-.img__container:hover{
-  padding: 15px;
+.img__container *{
+  transition: 0.4s;
+}
+
+.img__container:hover *{
+  transform: scale(0.9);
 }
 
 /* Header */

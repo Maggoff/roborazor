@@ -4,10 +4,12 @@ $(document).ready(function () {
     event.preventDefault();
     let id = $(this).attr('href'),
       top = $(id).offset().top;
-      
+
     if (btn.style.display === "none") {
+      console.log("test", btn.style);
       $('body,html').animate({ scrollTop: top }, 600);
     } else {
+      console.log("test2", btn.style);
       setTimeout(scroll, 800);
     }
 
