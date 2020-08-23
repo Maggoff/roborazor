@@ -237,7 +237,7 @@ body{
 
 .inertix__side{
 	display: flex;
-	flex-direction: column;
+  flex-direction: column;
 }
 
 .inertix__side__img1,
@@ -275,11 +275,13 @@ body{
 	font-weight: 500;
 	line-height: 30px;
 	text-align: center;
-	padding: 0 7%;
+  padding: 0 7%;
+  margin-top: 30px;
 }
 
 .inertix__btn__inner{
   text-align: center;
+  margin-top: 30px;
   margin-bottom: 15px;
 }
 
@@ -358,10 +360,12 @@ body{
 	font-weight: 500;
 	line-height: 30px;
 	text-align: center;
-	padding: 0 7%;
+  padding: 0 7%;
+  margin-top: 30px;
 }
 
 .crushball__btn__inner{
+  margin-top: 30px;
   text-align: center;
   margin-bottom: 15px;
 }
