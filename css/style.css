@@ -243,11 +243,6 @@ body{
   margin-bottom: 15px;
 }
 
-.inertix__side__img1:last-child,
-.inertix__side__img2:last-child{
-  margin-bottom: 0;
-}
-
 .inertix__inner{
 	height: 100%;
 	display: flex;
@@ -281,6 +276,7 @@ body{
 
 .inertix__btn__inner{
   text-align: center;
+  margin-bottom: 15px;
 }
 
 .inertix__btn{
@@ -330,11 +326,6 @@ body{
   margin-bottom: 15px;
 }
 
-.crushball__side__img1:last-child,
-.crushball__side__img2:last-child{
-  margin-bottom: 0;
-}
-
 .crushball__inner{
 	height: 100%;
 	display: flex;
@@ -368,6 +359,7 @@ body{
 
 .crushball__btn__inner{
   text-align: center;
+  margin-bottom: 15px;
 }
 
 .crushball__btn{
@@ -663,11 +655,6 @@ body{
   .inertix__side__img2{
     margin-bottom: 30px;
   }
-
-  .inertix__side__img1:last-child,
-  .inertix__side__img2:last-child{
-    margin-bottom: 30px;
-  }
   
   .inertix__text{
     font-size: 15px;
@@ -691,11 +678,6 @@ body{
 
   .crushball__side__img1,
   .crushball__side__img2{
-    margin-bottom: 30px;
-  }
-
-  .crushball__side__img1:last-child,
-  .crushball__side__img2:last-child{
     margin-bottom: 30px;
   }
   
