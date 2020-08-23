@@ -517,13 +517,13 @@ body{
 }
 
 .footer__crayfish a{
-	border-bottom: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 1px;
 	transition: 0.25s;
 }
 
 .footer__crayfish a:hover{
 	text-decoration: none;
-	padding-bottom: 1px;
 	border-bottom: 1px solid #878787;
 }
 
