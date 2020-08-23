@@ -1,27 +1,34 @@
 $(document).ready(function () {
   $("#menu").on("click", "a", function (event) {
+    let btn = document.getElementById("header-burger");
     event.preventDefault();
-    var id = $(this).attr('href'),
+    let id = $(this).attr('href'),
       top = $(id).offset().top;
-    setTimeout(scroll, 800);
-    var x = document.getElementById("links");
+    if (btn.style.display == "none") {
+      $('body,html').animate({ scrollTop: top }, 600);
+    } else {
+      setTimeout(scroll, 800);
+    }
+
+    let x = document.getElementById("links");
     x.classList.toggle("show");
-    document.body.classList.toggle("body__overflow");
-    function scroll(){
+    document.body.classList.remove("body__overflow");
+
+    function scroll() {
       $('body,html').animate({ scrollTop: top }, 600);
     };
   });
 
   $("#menu-footer, #main-btn").on("click", "a", function (event) {
     event.preventDefault();
-    var id = $(this).attr('href'),
+    let id = $(this).attr('href'),
       top = $(id).offset().top;
     $('body,html').animate({ scrollTop: top }, 600);
   });
 });
 
 function myFunction() {
-  var x = document.getElementById("links");
+  let x = document.getElementById("links");
   x.classList.toggle("show");
   document.body.classList.toggle("body__overflow");
 }
