@@ -806,26 +806,10 @@ body{
     font-size: 14px;
     line-height: 26px;
   }
-
-  .inertix__side__img1{
-    height: 220px;
-  }
-  
-  .inertix__side__img2{
-    height: 245px;
-  }
   
   .crushball__text{
     font-size: 14px;
     line-height: 26px;
-  }
-
-  .crushball__side__img1{
-    height: 220px;
-  }
-  
-  .crushball__side__img2{
-    height: 245px;
   }
 
 }
@@ -839,22 +823,6 @@ body{
   .title{
 	  font-size: 52px;
 	  line-height: 64px;
-  }
-
-  .inertix__side__img1{
-    height: 155px;
-  }
-  
-  .inertix__side__img2{
-    height: 175px;
-  }
-
-  .crushball__side__img1{
-    height: 155px;
-  }
-  
-  .crushball__side__img2{
-    height: 175px;
   }
 	
 }
