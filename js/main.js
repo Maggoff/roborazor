@@ -1,15 +1,14 @@
 $(document).ready(function () {
   $("#menu").on("click", "a", function (event) {
     let btn = document.getElementById("header-burger");
+    let btnStyle = getComputedStyle(btn);
     event.preventDefault();
     let id = $(this).attr('href'),
       top = $(id).offset().top;
 
-    if (btn.style.display === "none") {
-      console.log("test", btn.style);
+    if (btnStyle.display === "none") {
       $('body,html').animate({ scrollTop: top }, 600);
     } else {
-      console.log("test2", btn.style);
       setTimeout(scroll, 800);
     }
 
