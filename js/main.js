@@ -3,7 +3,7 @@ $(document).ready(function () {
     event.preventDefault();
     var id = $(this).attr('href'),
       top = $(id).offset().top;
-    setTimeout(scroll(), 800);
+    setTimeout(scroll, 800);
     var x = document.getElementById("links");
     x.classList.toggle("show");
     document.body.classList.toggle("body__overflow");
