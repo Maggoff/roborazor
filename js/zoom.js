@@ -254,7 +254,7 @@
 
     $(this._targetImage)
       .one($.support.transition.end, $.proxy(this.dispose, this))
-      .emulateTransitionEnd(300)
+      .emulateTransitionEnd(800)
   }
 
   Zoom.prototype.dispose = function () {

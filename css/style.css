@@ -184,7 +184,8 @@ body{
 /* About */
 
 .about{
-  margin-top: 145px;
+	margin-top: 90px;
+	padding-top: 55px;
 	padding-bottom: 5px;
 	background-color: #fafafa;
 }
@@ -227,7 +228,8 @@ body{
 /* Inertix */
 
 .inertix{
-	margin-top: 145px;
+	margin-top: 90px;
+	padding-top: 55px;
 	padding-bottom: 5px;
 	background-color: #fafafa;
 }
@@ -312,7 +314,8 @@ body{
 /* Crushball */
 
 .crushball{
-	margin-top: 145px;
+	margin-top: 90px;
+	padding-top: 55px;
 	padding-bottom: 5px;
 	background-color: #fafafa;
 }
@@ -397,7 +400,8 @@ body{
 /* Shop */
 
 .shop{
-	margin-top: 145px;
+	margin-top: 90px;
+	padding-top: 55px;
 	background-color: #fafafa;
 	padding-bottom: 145px;
 }
@@ -626,7 +630,8 @@ body{
 	}
 
 	.about{
-		margin-top: 65px;
+		margin-top: 40px;
+		padding-top: 25px;
 	}
 
 	.about__item{
@@ -653,7 +658,8 @@ body{
   }
   
   .inertix{
-    margin-top: 65px;
+    margin-top: 40px;
+		padding-top: 25px;
   }
   
   .inertix__item{
@@ -678,7 +684,8 @@ body{
   }
 
   .crushball{
-    margin-top: 65px;
+    margin-top: 40px;
+		padding-top: 25px;
   }
   
   .crushball__item{
@@ -703,7 +710,8 @@ body{
   }
 
   .shop{
-    margin-top: 65px;
+    margin-top: 40px;
+		padding-top: 25px;
     padding-bottom: 65px;
   }
   
